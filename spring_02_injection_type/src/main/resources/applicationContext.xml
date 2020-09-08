@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--注入属性-->
+    <bean id="student" class="com.yy.dao.Student">
+        <property name="name" value="刘小妹"/>
+        <property name="age" value="18"/>
+        <property name="address" value="湖南省邵阳市"/>
+    </bean>
+
+    <bean id="student1" class="com.yy.dao.Student">
+        <property name="name" value="张琳"/>
+        <property name="age" value="18"/>
+        <property name="address" value="湖南省邵阳市"/>
+    </bean>
+
+    <bean id="student2" class="com.yy.dao.Student">
+        <property name="name" value="杨梦华"/>
+        <property name="age" value="18"/>
+        <property name="address" value="湖南省邵阳市"/>
+    </bean>
+
+
+    <bean id="teacher" class="com.yy.dao.Teacher">
+        <!--注入属性-->
+        <property name="name" value="刘建明"/>
+        <!--注入对象-->
+        <property name="daughter" ref="student"/>
+        <!--注入数组-->
+        <property name="studentList">
+            <array>
+                <!--            <list>-->
+                <!--                <value>张三</value>-->
+                <ref bean="student"/>
+                <ref bean="student1"/>
+                <ref bean="student2"/>
+                <!--            </list>-->
+            </array>
+        </property>
+        <!--注入map-->
+        <property name="books">
+            <map>
+                <entry key="1" value="《Java编程思想》"/>
+                <entry key="2" value="《数据结构与算法经典问题解析》" />
+                <entry key="3" value="《Python语言程序设计基础（第2版）》"/>
+            </map>
+        </property>
+        <!--注入set-->
+        <property name="hobbies">
+            <set>
+                <value>看电影</value>
+                <value>画画</value>
+                <value>画画</value>
+                <value>健身</value>
+                <value>游泳</value>
+            </set>
+        </property>
+        <!---->
+        <!--注入properties-->
+        <property name="prop">
+            <props>
+                <prop key="1">地狱型</prop>
+                <prop key="2">沉稳型</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

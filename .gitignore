@@ -1,0 +1,3 @@
+# Project exclude paths
+/spring_01_init_bean/target/
+/spring_02_injection_type/target/

@@ -1,0 +1,4 @@
+spring_01_init_bean
+    -- bean的实例方式：set、构造函数、静态工厂
+spring_02_injection_type
+    -- spring的类型注入
