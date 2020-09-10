@@ -5,26 +5,26 @@
                         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--注入属性-->
-    <bean id="student" class="com.yy.dao.Student">
+    <bean id="student" class="com.yy.pojo.Student">
         <property name="name" value="刘小妹"/>
         <property name="age" value="18"/>
         <property name="address" value="湖南省邵阳市"/>
     </bean>
 
-    <bean id="student1" class="com.yy.dao.Student">
+    <bean id="student1" class="com.yy.pojo.Student">
         <property name="name" value="张琳"/>
         <property name="age" value="18"/>
         <property name="address" value="湖南省邵阳市"/>
     </bean>
 
-    <bean id="student2" class="com.yy.dao.Student">
+    <bean id="student2" class="com.yy.pojo.Student">
         <property name="name" value="杨梦华"/>
         <property name="age" value="18"/>
         <property name="address" value="湖南省邵阳市"/>
     </bean>
 
 
-    <bean id="teacher" class="com.yy.dao.Teacher">
+    <bean id="teacher" class="com.yy.pojo.Teacher">
         <!--注入属性-->
         <property name="name" value="刘建明"/>
         <!--注入对象-->

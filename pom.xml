@@ -11,6 +11,7 @@
     <modules>
         <module>spring_01_init_bean</module>
         <module>spring_02_injection_type</module>
+        <module>spring_03_annotation</module>
     </modules>
 
     <properties>
@@ -62,6 +63,11 @@
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.12</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
