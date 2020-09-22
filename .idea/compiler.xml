@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_02_injection_type" />
         <module name="spring_01_init_bean" />
+        <module name="spring_03_annotation" />
       </profile>
     </annotationProcessing>
   </component>

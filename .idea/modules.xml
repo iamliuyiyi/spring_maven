@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/spring_03_annotation/spring_03_annotation.iml" filepath="$PROJECT_DIR$/spring_03_annotation/spring_03_annotation.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/spring_04_proxy/spring_04_proxy.iml" filepath="$PROJECT_DIR$/spring_04_proxy/spring_04_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_05_aop/spring_05_aop.iml" filepath="$PROJECT_DIR$/spring_05_aop/spring_05_aop.iml" />
+>>>>>>> 14b9dd3ae11e18521c804b5cb564df2768950455
     </modules>
   </component>
 </project>

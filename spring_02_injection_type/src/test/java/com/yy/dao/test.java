@@ -12,6 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class test {
     // 乱码还未解决
+    // 运行demo2就行
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         Student student = context.getBean("student", Student.class);
