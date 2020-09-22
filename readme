@@ -4,3 +4,5 @@ spring_02_injection_type
     -- spring的类型注入
 spring_03_annotation
     -- spring注解学习
+spring_04_proxy
+    -- 代理模式学习
