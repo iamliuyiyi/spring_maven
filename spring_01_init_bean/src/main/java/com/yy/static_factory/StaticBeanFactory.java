@@ -2,7 +2,7 @@ package com.yy.static_factory;
 
 
 import com.yy.service.UserService;
-import com.yy.service.impl.UserServiceImpl;
+import com.yy.service.UserServiceImpl;
 
 /**
  * @Author LYY

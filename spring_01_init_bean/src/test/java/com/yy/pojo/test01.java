@@ -17,7 +17,7 @@ public class test01 {
     public void demo1() {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         User user = (User) context.getBean("user");
-        System.out.println(user.toString());
+        System.out.println(user.getAge());
     }
 
 
