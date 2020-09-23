@@ -6,3 +6,5 @@ spring_03_annotation
     -- spring注解学习
 spring_04_proxy
     -- 代理模式学习
+spring_05_aop
+    -- aop学习

@@ -4,12 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="user" class="com.yy.pojo.User" />
+
     <bean id="userDao" class="com.yy.dao.impl.UserDaoImpl"/>
-<!--    <bean id="userService" class="com.yy.service.impl.UserServiceImpl">-->
+
+<!--    <bean id="userService" class="UserServiceImpl">-->
 <!--        <constructor-arg ref="userDao"/>-->
 <!--    </bean>-->
 
-    <bean id="factory" class="com.yy.static_factory.StaticBeanFactory" factory-method="getUserService"/>
-    <bean id="user" class="com.yy.pojo.User"/>
+<!--    <bean id="factory" class="com.yy.static_factory.StaticBeanFactory" factory-method="getUserService"/>-->
 
 </beans>

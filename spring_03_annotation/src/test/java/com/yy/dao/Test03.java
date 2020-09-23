@@ -13,7 +13,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @Title
  */
 public class Test03 {
-//    public static Logger logger = Logger.getLogger(String.valueOf(Test03.class));
+
     // Dao
     @Test
     public void demo1() {

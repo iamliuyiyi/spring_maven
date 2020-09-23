@@ -1,0 +1,9 @@
+com\yy\dao\UserDao.class
+com\yy\dao\impl\UserDaoImpl.class
+com\yy\log\BeforeLog.class
+com\yy\pojo\User.class
+com\yy\log\AnnotationAdvice.class
+com\yy\log\AfterLog.class
+com\yy\service\UserService.class
+com\yy\service\impl\UserServiceImpl.class
+com\yy\log\DiyAdvice.class

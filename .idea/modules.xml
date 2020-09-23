@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring_04_proxy/spring_04_proxy.iml" filepath="$PROJECT_DIR$/spring_04_proxy/spring_04_proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring_05_aop/spring_05_aop.iml" filepath="$PROJECT_DIR$/spring_05_aop/spring_05_aop.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,5 @@
 package com.yy.static_factory;
 
-import com.yy.dao.UserDao;
 import com.yy.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

@@ -12,7 +12,9 @@
         <module>spring_01_init_bean</module>
         <module>spring_02_injection_type</module>
         <module>spring_03_annotation</module>
+        <module>spring_05_aop</module>
     </modules>
+
 
     <properties>
         <!-- 文件拷贝时的编码 -->
@@ -56,18 +58,30 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>5.2.8.RELEASE</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
                 <version>5.2.8.RELEASE</version>
             </dependency>
+            <!--spring aop-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>
                 <version>5.2.8.RELEASE</version>
             </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>1.9.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.6</version>
+            </dependency>
+
+
             <dependency>
                 <groupId>cglib</groupId>
                 <artifactId>cglib</artifactId>
